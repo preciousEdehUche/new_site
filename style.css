@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  font-size: 12px !important;
+}
+
+.hero{
+ height: 80vh;
+}
+
+.hero h1 {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.hero p {
+  text-align: left;
+  color: lightgray;
+}
+
+
+.about{
+  background-color: ghostwhite;
+}
+
+.about h4{
+  font-size: 22px;
+  line-height: 28px;
+  text-align: justify ;
+  font-weight: 600;
+
+}
+
+.about h3{
+  font-size: 32px;
+  line-height: 40px;
+  text-align: justify ;
+  color: #004B2A;
+  margin-top: 16px;
+  font-weight: bold;
+
+}
+
+
+.about p{
+  font-size: 14px;
+  line-height: 24px;
+  color: gray;
+}
+
+.contact h3, .products h3{
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #004B2A;
+  margin-top: 16px;
+  font-weight: bold;
+
+}
+
+
+.img-container {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 20px;
+  height: 100%;
+  object-fit: cover ;
+}
+
+.overlay {
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgb(6, 18, 6);
+  opacity: 0.8;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.img-container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.contact-card {
+  background-color: ghostwhite;
+  border-radius: 15px;
+  box-shadow: 0px 6px 18px lightgray;
+}
+
+.contact-card h5 {
+  font-weight: 200;
+}
+
+.contact-card p {
+  font-size: 14px;  
+}
+
+
+i{
+  font-size: 38px;
+  color: red;
+}
+
+footer {
+  background-color: ghostwhite;
+}
+
+footer ul li {
+  list-style: none ;
+
+}
+
+footer i {
+  font-size: 24px;
+}
+
+.footer a {
+  text-decoration: none;
+  line-height: 40px;
+  color: black;
+}
+
+.footer a:hover {
+  color: red;
+}
+
